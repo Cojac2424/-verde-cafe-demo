@@ -396,12 +396,12 @@ footer{background:var(--ink);color:rgba(251,246,236,.7);padding:56px 0 30px;}
       </div>
     </div>
 
-    <div class="hero-visual reveal in">
-      <div class="ring ring-1"></div>
-      <div class="ring ring-2"></div>
-      <div class="mark">
+    <div class="hero-visual reveal in" style="background:
+      linear-gradient(rgba(31,61,46,.24),rgba(31,61,46,.24)),
+      url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85') center/cover;">
+      <div class="mark" style="background:rgba(20,24,18,.28);padding:24px 28px;border-radius:6px;backdrop-filter:blur(2px);">
         <div class="big">Verde</div>
-        <div class="small">Downtown Windsor</div>
+        <div class="small">Coffee • Desserts • Downtown Windsor</div>
       </div>
     </div>
   </div>
@@ -409,14 +409,9 @@ footer{background:var(--ink);color:rgba(251,246,236,.7);padding:56px 0 30px;}
 
 <section class="about" id="about">
   <div class="wrap about-grid">
-    <div class="about-art reveal">
-      <div class="center-mark">
-        <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.2">
-          <path d="M50 90 C50 60 50 40 50 15" stroke-linecap="round"/>
-          <path d="M50 20 C35 20 22 32 22 48 C40 48 50 36 50 20Z"/>
-          <path d="M50 40 C65 40 78 52 78 68 C60 68 50 56 50 40Z"/>
-        </svg>
-      </div>
+    <div class="about-art reveal" style="background:
+      linear-gradient(rgba(31,61,46,.12),rgba(31,61,46,.12)),
+      url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85') center/cover;">
     </div>
 
     <div class="about-copy reveal">
@@ -548,32 +543,32 @@ footer{background:var(--ink);color:rgba(251,246,236,.7);padding:56px 0 30px;}
 
     <div class="fav-grid reveal">
       <div class="fav-card">
-        <div class="fav-thumb"><span class="fav-tag">Fan Favourite</span></div>
+        <div class="fav-thumb" style="background:url('https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85') center/cover;"><span class="fav-tag">Fan Favourite</span></div>
         <div class="fav-body"><h3>Tiramisu Balls</h3><p>Six delicious tiramisu balls — one of Verde's most popular selections.</p></div>
       </div>
 
       <div class="fav-card">
-        <div class="fav-thumb"></div>
+        <div class="fav-thumb" style="background:url('https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=900&q=85') center/cover;"></div>
         <div class="fav-body"><h3>Mix Waffle</h3><p>A decadent waffle creation featuring a combination of toppings.</p></div>
       </div>
 
       <div class="fav-card">
-        <div class="fav-thumb"><span class="fav-tag">Signature</span></div>
+        <div class="fav-thumb" style="background:url('https://images.unsplash.com/photo-1519671282429-b44660ead0a7?auto=format&fit=crop&w=900&q=85') center/cover;"><span class="fav-tag">Signature</span></div>
         <div class="fav-body"><h3>Mix Sushi Crêpe</h3><p>Verde's distinctive sushi-style dessert crêpe.</p></div>
       </div>
 
       <div class="fav-card">
-        <div class="fav-thumb"></div>
+        <div class="fav-thumb" style="background:url('https://images.unsplash.com/photo-1546171753-97d7676e4602?auto=format&fit=crop&w=900&q=85') center/cover;"></div>
         <div class="fav-body"><h3>Strawberry Garden Mocktail</h3><p>A refreshing specialty mocktail.</p></div>
       </div>
 
       <div class="fav-card">
-        <div class="fav-thumb"></div>
+        <div class="fav-thumb" style="background:url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85') center/cover;"></div>
         <div class="fav-body"><h3>Pistachio Cheesecake</h3><p>Rich cheesecake featuring pistachio flavour.</p></div>
       </div>
 
       <div class="fav-card">
-        <div class="fav-thumb"></div>
+        <div class="fav-thumb" style="background:url('https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85') center/cover;"></div>
         <div class="fav-body"><h3>Honey Cinnamon Brown Sugar Iced Latte</h3><p>Espresso and milk with honey, brown sugar and cinnamon.</p></div>
       </div>
     </div>
@@ -628,14 +623,27 @@ footer{background:var(--ink);color:rgba(251,246,236,.7);padding:56px 0 30px;}
 <section class="reviews">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="eyebrow">Reviews</span>
-      <h2>What our customers say</h2>
+      <span class="eyebrow">Customer Favourites</span>
+      <h2>Popular picks at Verde</h2>
+      <p>Featured selections based on Verde Café's current online menu popularity.</p>
     </div>
 
     <div class="review-grid reveal">
-      <div class="review-card"><div class="stars">★★★★★</div><p>Customer testimonial can be displayed here.</p></div>
-      <div class="review-card"><div class="stars">★★★★★</div><p>Customer testimonial can be displayed here.</p></div>
-      <div class="review-card"><div class="stars">★★★★★</div><p>Customer testimonial can be displayed here.</p></div>
+      <div class="review-card">
+        <div class="stars">#1</div>
+        <h3 style="margin-bottom:10px;color:var(--verde-deep);">Tiramisu Balls</h3>
+        <p>Six bite-sized tiramisu treats and one of Verde Café's most-liked menu selections.</p>
+      </div>
+      <div class="review-card">
+        <div class="stars">#2</div>
+        <h3 style="margin-bottom:10px;color:var(--verde-deep);">Mix Sushi Crêpe</h3>
+        <p>A signature dessert crêpe presented sushi-style with indulgent toppings.</p>
+      </div>
+      <div class="review-card">
+        <div class="stars">#3</div>
+        <h3 style="margin-bottom:10px;color:var(--verde-deep);">Mix Waffle</h3>
+        <p>A decadent waffle creation featuring a combination of sweet toppings.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -671,7 +679,7 @@ footer{background:var(--ink);color:rgba(251,246,236,.7);padding:56px 0 30px;}
     </div>
 
     <div class="footer-bottom">
-      <span>© 2026 Verde Café. All rights reserved.</span>
+      <span>Concept website demo for Verde Café. Menu items, hours, imagery and availability subject to owner confirmation.</span>
       <span>Windsor, Ontario</span>
     </div>
   </div>
